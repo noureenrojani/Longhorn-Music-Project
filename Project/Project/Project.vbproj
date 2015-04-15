@@ -158,6 +158,7 @@
     <Content Include="Login.aspx" />
     <Content Include="ManageFeatured.aspx" />
     <Content Include="NavBar.png" />
+    <Content Include="Search.aspx" />
     <Content Include="StyleSheet.css" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -166,6 +167,7 @@
     <Compile Include="ClassEmployeeDB.vb" />
     <Compile Include="ClassFeaturedDB.vb" />
     <Compile Include="ClassFormat.vb" />
+    <Compile Include="ClassSearchDB.vb" />
     <Compile Include="ClassValidate.vb" />
     <Compile Include="CreateAccount.aspx.designer.vb">
       <DependentUpon>CreateAccount.aspx</DependentUpon>
@@ -220,6 +222,13 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Search.aspx.designer.vb">
+      <DependentUpon>Search.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Search.aspx.vb">
+      <DependentUpon>Search.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
   </ItemGroup>
   <ItemGroup>
