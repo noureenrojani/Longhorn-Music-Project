@@ -120,5 +120,14 @@
         Else
             Return False
         End If
+
+        Dim db As New ClassZipDB
+        db.SearchByZip(strInput)
+        If db.MyView Is Nothing Then
+            'zip code was not found 
+            Return False
+        End If
+
+
     End Function
 End Class

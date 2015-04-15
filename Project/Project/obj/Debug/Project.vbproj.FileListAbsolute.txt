@@ -135,3 +135,13 @@ C:\Users\Erik\Documents\Longhorn-Music-Project\Project\Project\bin\DotNetOpenAut
 C:\Users\Erik\Documents\Longhorn-Music-Project\Project\Project\bin\DotNetOpenAuth.AspNet.xml
 C:\Users\Erik\Documents\Longhorn-Music-Project\Project\Project\bin\Microsoft.AspNet.Membership.OpenAuth.xml
 C:\Users\Erik\Documents\Longhorn-Music-Project\Project\Project\bin\Microsoft.AspNet.FriendlyUrls.xml
+C:\Users\Aida\Documents\Longhorn-Music-Project\Project\Project\bin\Project.dll
+C:\Users\Aida\Documents\Longhorn-Music-Project\Project\Project\bin\Project.pdb
+C:\Users\Aida\Documents\Longhorn-Music-Project\Project\Project\bin\Project.xml
+C:\Users\Aida\Documents\Longhorn-Music-Project\Project\Project\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Aida\Documents\Longhorn-Music-Project\Project\Project\bin\Microsoft.Web.Infrastructure.xml
+C:\Users\Aida\Documents\Longhorn-Music-Project\Project\Project\obj\Debug\Project.Resources.resources
+C:\Users\Aida\Documents\Longhorn-Music-Project\Project\Project\obj\Debug\Project.vbproj.GenerateResource.Cache
+C:\Users\Aida\Documents\Longhorn-Music-Project\Project\Project\obj\Debug\Project.dll
+C:\Users\Aida\Documents\Longhorn-Music-Project\Project\Project\obj\Debug\Project.xml
+C:\Users\Aida\Documents\Longhorn-Music-Project\Project\Project\obj\Debug\Project.pdb
