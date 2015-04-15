@@ -11,7 +11,7 @@ Option Strict On
 Option Explicit On
 
 
-Partial Public Class Search
+Partial Public Class SearchArtists
 
     '''<summary>
     '''searchby control.
@@ -41,15 +41,6 @@ Partial Public Class Search
     Protected WithEvents lblgenre As Global.System.Web.UI.WebControls.Label
 
     '''<summary>
-    '''txtSearchArtist control.
-    '''</summary>
-    '''<remarks>
-    '''Auto-generated field.
-    '''To modify move field declaration from designer file to code-behind file.
-    '''</remarks>
-    Protected WithEvents txtSearchArtist As Global.System.Web.UI.WebControls.TextBox
-
-    '''<summary>
     '''txtSearchAlbum control.
     '''</summary>
     '''<remarks>
@@ -59,22 +50,22 @@ Partial Public Class Search
     Protected WithEvents txtSearchAlbum As Global.System.Web.UI.WebControls.TextBox
 
     '''<summary>
-    '''txtSearchSong control.
+    '''txtSearchArtist control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents txtSearchSong As Global.System.Web.UI.WebControls.TextBox
+    Protected WithEvents txtSearchArtist As Global.System.Web.UI.WebControls.TextBox
 
     '''<summary>
-    '''DropDownList1 control.
+    '''ddlEquality control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents DropDownList1 As Global.System.Web.UI.WebControls.DropDownList
+    Protected WithEvents ddlEquality As Global.System.Web.UI.WebControls.DropDownList
 
     '''<summary>
     '''Label1 control.
@@ -86,13 +77,13 @@ Partial Public Class Search
     Protected WithEvents Label1 As Global.System.Web.UI.WebControls.Label
 
     '''<summary>
-    '''txtMax control.
+    '''txtRating control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents txtMax As Global.System.Web.UI.WebControls.TextBox
+    Protected WithEvents txtRating As Global.System.Web.UI.WebControls.TextBox
 
     '''<summary>
     '''Label2 control.

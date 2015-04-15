@@ -159,6 +159,9 @@
     <Content Include="ManageFeatured.aspx" />
     <Content Include="NavBar.png" />
     <Content Include="Search.aspx" />
+    <Content Include="SearchArtists.aspx" />
+    <Content Include="SearchAlbums.aspx" />
+    <Content Include="SearchSongs.aspx" />
     <Content Include="StyleSheet.css" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -229,6 +232,27 @@
     <Compile Include="Search.aspx.vb">
       <DependentUpon>Search.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SearchArtists.aspx.designer.vb">
+      <DependentUpon>SearchArtists.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SearchArtists.aspx.vb">
+      <DependentUpon>SearchArtists.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="SearchAlbums.aspx.designer.vb">
+      <DependentUpon>SearchAlbums.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SearchAlbums.aspx.vb">
+      <DependentUpon>SearchAlbums.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="SearchSongs.aspx.designer.vb">
+      <DependentUpon>SearchSongs.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SearchSongs.aspx.vb">
+      <DependentUpon>SearchSongs.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
     </Compile>
   </ItemGroup>
   <ItemGroup>
