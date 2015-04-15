@@ -115,3 +115,23 @@ Z:\mis333k\Team14\Updated Project because Aida is dumb\Project\Project\obj\Debug
 Z:\mis333k\Team14\Updated Project because Aida is dumb\Project\Project\obj\Debug\Project.dll
 Z:\mis333k\Team14\Updated Project because Aida is dumb\Project\Project\obj\Debug\Project.xml
 Z:\mis333k\Team14\Updated Project because Aida is dumb\Project\Project\obj\Debug\Project.pdb
+C:\Users\Erik\Documents\Longhorn-Music-Project\Project\Project\obj\Debug\Project.vbprojResolveAssemblyReference.cache
+C:\Users\Erik\Documents\Longhorn-Music-Project\Project\Project\obj\Debug\Project.Resources.resources
+C:\Users\Erik\Documents\Longhorn-Music-Project\Project\Project\obj\Debug\Project.vbproj.GenerateResource.Cache
+C:\Users\Erik\Documents\Longhorn-Music-Project\Project\Project\obj\Debug\Project.dll
+C:\Users\Erik\Documents\Longhorn-Music-Project\Project\Project\obj\Debug\Project.xml
+C:\Users\Erik\Documents\Longhorn-Music-Project\Project\Project\obj\Debug\Project.pdb
+C:\Users\Erik\Documents\Longhorn-Music-Project\Project\Project\bin\Project.dll
+C:\Users\Erik\Documents\Longhorn-Music-Project\Project\Project\bin\Project.pdb
+C:\Users\Erik\Documents\Longhorn-Music-Project\Project\Project\bin\Project.xml
+C:\Users\Erik\Documents\Longhorn-Music-Project\Project\Project\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Erik\Documents\Longhorn-Music-Project\Project\Project\bin\Microsoft.Web.Infrastructure.xml
+C:\Users\Erik\Documents\Longhorn-Music-Project\Project\Project\bin\EntityFramework.xml
+C:\Users\Erik\Documents\Longhorn-Music-Project\Project\Project\bin\DotNetOpenAuth.Core.xml
+C:\Users\Erik\Documents\Longhorn-Music-Project\Project\Project\bin\DotNetOpenAuth.OAuth.xml
+C:\Users\Erik\Documents\Longhorn-Music-Project\Project\Project\bin\DotNetOpenAuth.OAuth.Consumer.xml
+C:\Users\Erik\Documents\Longhorn-Music-Project\Project\Project\bin\DotNetOpenAuth.OpenId.xml
+C:\Users\Erik\Documents\Longhorn-Music-Project\Project\Project\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+C:\Users\Erik\Documents\Longhorn-Music-Project\Project\Project\bin\DotNetOpenAuth.AspNet.xml
+C:\Users\Erik\Documents\Longhorn-Music-Project\Project\Project\bin\Microsoft.AspNet.Membership.OpenAuth.xml
+C:\Users\Erik\Documents\Longhorn-Music-Project\Project\Project\bin\Microsoft.AspNet.FriendlyUrls.xml

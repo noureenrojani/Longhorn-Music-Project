@@ -138,12 +138,18 @@ body {
 #searchcriteria {
     position:relative;
     float:left;
+    text-align:left;
 }
 
 #artistsearch {
     position:relative;
     float:left;
 
+}
+
+#searchby {
+    font-size: x-large;
+    text-decoration: underline;
 }
 
 

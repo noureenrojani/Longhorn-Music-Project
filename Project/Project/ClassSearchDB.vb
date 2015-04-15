@@ -29,6 +29,12 @@ Class ClassSearchDB
         End Get
     End Property
 
+    Public ReadOnly Property GenreDataset() As DataSet
+        Get
+            ' return dataset to user
+            Return mDatasetGenre
+        End Get
+    End Property
 
 
     Public Sub UseSP(ByVal strUSPName As String, ByVal strDatasetName As DataSet, ByVal strViewName As DataView, ByVal strTableName As String, ByVal aryParamNames As ArrayList, ByVal aryParamValues As ArrayList)
@@ -73,9 +79,34 @@ Class ClassSearchDB
         End Try
     End Sub
 
+    Public Sub RunProcedure(ByVal strName As String)
+        'Purpose: run any select query 
+        'Arguments: strQuery 
+        'Returns: filled dataset
+        'Author: Aida Mojica
+        'Date: 17 March 2015
+
+        ' CREATES INSTANCES OF THE CONNECTION AND COMMAND OBJECT
+        Dim objConnection As New SqlConnection(mstrConnection)
+        ' Tell SQL server the name of the stored procedure you will be executing
+        Dim mdbDataAdapter As New SqlDataAdapter(strName, objConnection)
+        Try
+            ' SETS THE COMMAND TYPE TO "STORED PROCEDURE"
+            mdbDataAdapter.SelectCommand.CommandType = CommandType.StoredProcedure
+            ' clear dataset
+            Me.mDatasetGenre.Clear()
+            ' OPEN CONNECTION AND FILL DATASET
+            mdbDataAdapter.Fill(mDatasetGenre, "tblGenre")
+            ' copy dataset to dataview
+            mMyViewGenre.Table = mDatasetGenre.Tables("tblGenre")
+        Catch ex As Exception
+            Throw New Exception("stored procedure is " & strName.ToString & " error is " & ex.Message)
+        End Try
+    End Sub
+
 
     Public Sub GetAllGenres()
-        UseSP("Transactions_Get_All", mDatasetGenre, mMyViewGenre, "tblGenre", aryNames, aryValues)
+        RunProcedure("usp_genre_get_all")
 
     End Sub
 

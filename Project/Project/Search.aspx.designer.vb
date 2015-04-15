@@ -14,13 +14,13 @@ Option Explicit On
 Partial Public Class Search
 
     '''<summary>
-    '''Label1 control.
+    '''searchby control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents Label1 As Global.System.Web.UI.WebControls.Label
+    Protected WithEvents searchby As Global.System.Web.UI.WebControls.Label
 
     '''<summary>
     '''CheckBoxList1 control.
@@ -30,6 +30,15 @@ Partial Public Class Search
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
     Protected WithEvents CheckBoxList1 As Global.System.Web.UI.WebControls.CheckBoxList
+
+    '''<summary>
+    '''lblgenre control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents lblgenre As Global.System.Web.UI.WebControls.Label
 
     '''<summary>
     '''txtSearchArtist control.
@@ -95,13 +104,13 @@ Partial Public Class Search
     Protected WithEvents txtMax As Global.System.Web.UI.WebControls.TextBox
 
     '''<summary>
-    '''lstGenre control.
+    '''cbxList control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents lstGenre As Global.System.Web.UI.WebControls.ListBox
+    Protected WithEvents cbxList As Global.System.Web.UI.WebControls.CheckBoxList
 
     '''<summary>
     '''btnSearch control.

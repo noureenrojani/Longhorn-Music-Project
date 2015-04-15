@@ -3,15 +3,15 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <div id="searchcriteria">
-    <asp:Label ID="Label1" runat="server" Text="Search by:"></asp:Label>
+    <asp:Label ID="searchby" runat="server" Text="Search by:"></asp:Label>
         <asp:CheckBoxList ID="CheckBoxList1" runat="server" CellSpacing="20" CellPadding="0">
-            <asp:ListItem>Artist</asp:ListItem>
-            <asp:ListItem>Album</asp:ListItem>
-            <asp:ListItem>Song</asp:ListItem>
-            <asp:ListItem>Rating</asp:ListItem>
-            <asp:ListItem>Genre</asp:ListItem>
+            <asp:ListItem>Artist:</asp:ListItem>
+            <asp:ListItem>Album:</asp:ListItem>
+            <asp:ListItem>Song:</asp:ListItem>
+            <asp:ListItem>Rating:</asp:ListItem>
          </asp:CheckBoxList>
-    </div>
+        <asp:Label ID="lblgenre" runat="server" Text="Genre(s)"></asp:Label>
+        :</div>
 
     <div id="artistsearch">
         <br />
@@ -31,7 +31,7 @@
         <asp:TextBox ID="txtMax" runat="server" Width="25px"></asp:TextBox>
         <br />
         <br />
-        <asp:ListBox ID="lstGenre" runat="server"></asp:ListBox>
+        <asp:CheckBoxList ID="cbxList" runat="server" RepeatColumns="2" Width="400px"></asp:CheckBoxList>
         <br />
         <br />
         <asp:Button ID="btnSearch" runat="server" Text="SEARCH" />
