@@ -38,7 +38,6 @@ Public Class ClassCustomerDB
         End Get
     End Property
 
-
     Public Sub RunProcedure(ByVal strName As String)
         'Purpose: run any select query 
         'Arguments: strQuery 
@@ -63,7 +62,6 @@ Public Class ClassCustomerDB
             Throw New Exception("stored procedure is " & strName.ToString & " error is " & ex.Message)
         End Try
     End Sub
-
 
     Public Sub GetAllCustomers()
         'Purpose: get all customers
@@ -123,6 +121,74 @@ Public Class ClassCustomerDB
         Catch ex As Exception
             Throw New Exception("Query is " & strQuery.ToString & " error is " & ex.Message)
         End Try
+    End Sub
+
+    Protected Sub UseSPforInsertOrUpdateQuery(ByVal strUSPName As String, ByVal aryParamNames As ArrayList, ByVal aryParamValues As ArrayList)
+        'Purpose: Sort the dataview by the argument (general sub)
+        'Arguments: Stored procedure name, Arraylist of parameter names, and  arraylist of parameter values
+        'Returns: Nothing
+        'Author: Rick Byars
+        'Date: 4/03/12
+
+        'Creates instances of the connection and command object
+        Dim objConnection As New SqlConnection(mstrConnection)
+        'Tell SQL server the name of the stored procedure
+        Dim objCommand As New SqlDataAdapter(strUSPName, objConnection)
+        Try
+            'Sets the command type to stored procedure
+            objCommand.SelectCommand.CommandType = CommandType.StoredProcedure
+
+            'Add parameters to stored procedure
+            Dim index As Integer = 0
+            For Each paramName As String In aryParamNames
+                objCommand.SelectCommand.Parameters.Add(New SqlParameter(CStr(aryParamNames(index)), CStr(aryParamValues(index))))
+                index = index + 1
+            Next
+
+            ' OPEN CONNECTION AND RUN INSERT/UPDATE QUERY
+            objCommand.SelectCommand.Connection = objConnection
+            objConnection.Open()
+            objCommand.SelectCommand.ExecuteNonQuery()
+            objConnection.Close()
+
+            'Print out each element of our arraylists if error occured
+        Catch ex As Exception
+            Dim strError As String = ""
+            Dim index As Integer = 0
+            For Each paramName As String In aryParamNames
+                strError = strError & "ParamName: " & CStr(aryParamNames(index))
+                strError = strError & " ParamValue: " & CStr(aryParamValues(index))
+                index = index + 1
+            Next
+            Throw New Exception(strError & " error message is " & ex.Message)
+        End Try
+    End Sub
+
+    Public Sub UpdateFeatured(strEmailAddr As String, strPassword As String, strFirstName As String, strMI As String, strLastName As String, strAddress As String, strZipCode As String, strPhone As String)
+        Dim aryNames As New ArrayList
+        Dim aryValues As New ArrayList
+
+        'update tblFeatured with new song 
+        aryNames.Add("@EmailAddr")
+        aryNames.Add("@Password")
+        aryNames.Add("@FirstName")
+        aryNames.Add("@MI")
+        aryNames.Add("@LastName")
+        aryNames.Add("@Address")
+        aryNames.Add("@ZipCode")
+        aryNames.Add("@Phone")
+
+        aryValues.Add(strEmailAddr)
+        aryValues.Add(strPassword)
+        aryValues.Add(strFirstName)
+        aryValues.Add(strMI)
+        aryValues.Add(strLastName)
+        aryValues.Add(strAddress)
+        aryValues.Add(strZipCode)
+        aryValues.Add(strPhone)
+
+        'call the SP to insert the record
+        UseSPforInsertOrUpdateQuery("usp_customer_insert", aryNames, aryValues)
     End Sub
 End Class
 

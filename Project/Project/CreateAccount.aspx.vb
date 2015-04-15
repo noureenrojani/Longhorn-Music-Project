@@ -43,7 +43,7 @@
         End If
 
         'Add a new account
-        CustDB.AddAccount(txtEmailAddr.Text, txtPassword.Text, txtFirstName.Text, txtMI.Text, txtLastName.Text, txtAddress.Text, txtZipCode.Text, txtPhone.Text, "Y")
+        CustDB.AddAccount(txtEmailAddr.Text, txtPassword.Text, txtFirstName.Text, txtMI.Text, txtLastName.Text, txtAddress.Text, txtZipCode.Text, txtPhone.Text, txtEnabled.Text)
         lblError.Text = "Account Created!"
     End Sub
 

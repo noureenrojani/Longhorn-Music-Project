@@ -33,7 +33,8 @@ body {
 	position: relative;
 	float: left;
 	width: 25%;
-
+    top: 4px;
+    left: 0px;
 }
 				
 
