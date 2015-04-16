@@ -32,6 +32,15 @@ Partial Public Class ManageOwnAccountEmployee
     Protected WithEvents Label4 As Global.System.Web.UI.WebControls.Label
 
     '''<summary>
+    '''Label5 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents Label5 As Global.System.Web.UI.WebControls.Label
+
+    '''<summary>
     '''Label2 control.
     '''</summary>
     '''<remarks>
@@ -75,6 +84,15 @@ Partial Public Class ManageOwnAccountEmployee
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
     Protected WithEvents txtZip As Global.System.Web.UI.WebControls.TextBox
+
+    '''<summary>
+    '''txtCityState control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents txtCityState As Global.System.Web.UI.WebControls.TextBox
 
     '''<summary>
     '''txtPhone control.

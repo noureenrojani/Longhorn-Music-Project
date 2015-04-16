@@ -110,9 +110,9 @@
     'Author: Noureen Rojani
     'Date: February 18, 2015
     Public Function CheckZip(strInput As String) As Boolean
-        If strInput.Length < 5 Or strInput.Length > 9 Then
-            Return False
-        End If
+        'If strInput.Length < 5 Or strInput.Length > 9 Then
+        '    Return False
+        'End If
 
         'Make sure zipcode is between 5 and 9 digits
         If CheckForDigits(strInput) = True Then
@@ -121,12 +121,7 @@
             Return False
         End If
 
-        Dim db As New ClassZipDB
-        db.SearchByZip(strInput)
-        If db.MyView Is Nothing Then
-            'zip code was not found 
-            Return False
-        End If
+      
 
 
     End Function

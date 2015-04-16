@@ -23,11 +23,11 @@
         <asp:Button ID="btnCustomerLogin" runat="server" Text="Login" ValidationGroup="Cust" />
         <br />
         <br />
-        <asp:LinkButton ID="LinkButton15" runat="server">Create an Account</asp:LinkButton>
+        <asp:LinkButton ID="LinkButton15" runat="server" PostBackUrl="~/CreateAccount.aspx">Create an Account</asp:LinkButton>
     </div>
-  <div id="middle">
+    <div id="middle">
       <asp:Image ID="Image1" runat="server" Height="364px" ImageUrl="~/Bar.png" />
-</div>
+    </div>
     <div id="right">
         Employee Login<br />
         <br />
@@ -49,22 +49,5 @@
         <br />
         <br />
     </div>
-<p>
-    &nbsp;</p>
-    <p>
-        &nbsp;</p>
-<p>
-    &nbsp;</p>
-<p>
-    &nbsp;</p>
-<p>
-    &nbsp;</p>
-<p>
-    &nbsp;</p>
-<p>
-    &nbsp;</p>
-<p>
-&nbsp;</p>
-    <p>
-        &nbsp;</p>
+
 </asp:Content>

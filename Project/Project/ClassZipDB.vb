@@ -73,13 +73,13 @@ Public Class ClassZipDB
         RunProcedure("usp_zip_get_all")
     End Sub
 
-    Public Sub SearchByZip(strIn As String)
+    Public Sub SearchByZip(strIn As Integer) 'changed from string to int
         'Purpose: filter by empID in dataview 
         'Arguments: strIn
         'Returns: sorted dataview by EmpID
         'Author: Aida Mojica
         'Date: 17 March 2015
 
-        mMyView.RowFilter = "Zip ='" & strIn & "'"
+        mMyView.RowFilter = "ZipCode = '" & strIn & "'"
     End Sub
 End Class

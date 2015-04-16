@@ -156,13 +156,18 @@
     <Content Include="Homepage.aspx" />
     <Content Include="JavaScript.js" />
     <Content Include="Login.aspx" />
+    <Content Include="LogOut.aspx" />
     <Content Include="ManageAccountsHomepage.aspx" />
+    <Content Include="ManageCustomerAccountEmployee.aspx" />
+    <Content Include="ManageEmployeeAccountManager.aspx" />
     <Content Include="ManageFeatured.aspx" />
     <Content Include="ManageOwnAccountEmployee.aspx" />
     <Content Include="NavBar.png" />
     <Content Include="Search.aspx" />
     <Content Include="StyleSheet.css" />
-    <Content Include="Web.config" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ClassCustomerDB.vb" />
@@ -193,11 +198,32 @@
       <DependentUpon>Login.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
+    <Compile Include="LogOut.aspx.designer.vb">
+      <DependentUpon>LogOut.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="LogOut.aspx.vb">
+      <DependentUpon>LogOut.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
     <Compile Include="ManageAccountsHomepage.aspx.designer.vb">
       <DependentUpon>ManageAccountsHomepage.aspx</DependentUpon>
     </Compile>
     <Compile Include="ManageAccountsHomepage.aspx.vb">
       <DependentUpon>ManageAccountsHomepage.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="ManageCustomerAccountEmployee.aspx.designer.vb">
+      <DependentUpon>ManageCustomerAccountEmployee.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ManageCustomerAccountEmployee.aspx.vb">
+      <DependentUpon>ManageCustomerAccountEmployee.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="ManageEmployeeAccountManager.aspx.designer.vb">
+      <DependentUpon>ManageEmployeeAccountManager.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ManageEmployeeAccountManager.aspx.vb">
+      <DependentUpon>ManageEmployeeAccountManager.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="ManageFeatured.aspx.designer.vb">

@@ -59,6 +59,7 @@
             Exit Sub
         End If
 
+
         'check to see if password matches 
         If txtCustomerPassword.Text <> DBCust.MyView(0).Item("password").ToString Then
             'password is incorrect 
@@ -70,7 +71,7 @@
         'login successful, redirect to homepage where you will now show CustPanel and store email in url 
         lblCustomerError.Text = "login successful"
         Response.Redirect("Homepage.aspx?Email=" & txtCustomerEmail.Text)
-
+        Session("CustEmail") = txtCustomerEmail.Text
 
     End Sub
 
@@ -104,6 +105,12 @@
             Exit Sub
         End If
 
+        'check to see if employee is fired 
+        If DBCust.MyView(0).Item("IsFired").ToString = "Y" Then
+            'employee is fired 
+            lblEmployeeError.Text = "You were fired"
+            Exit Sub
+        End If
         'check to see if password matches 
         If txtEmpPassword.Text <> DBEmp.MyView(0).Item("password").ToString Then
             'password is incorrect 
@@ -115,6 +122,9 @@
         'login successful, redirect to homepage where you will now show EmpPanel and store emp id in url 
         lblEmployeeError.Text = "login successful"
         Response.Redirect("Homepage.aspx?EmpID=" & txtEmpID.Text)
+        ''''added session variable 
+        Session("EmpID") = txtEmpID.Text
+
     End Sub
 
     Public Sub AddToLoginCountCust()

@@ -4,9 +4,11 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <div id="labels">
 
-        <asp:Label ID="Label1" runat="server" Height="23px" Text="Address"></asp:Label>
+        <asp:Label ID="Label1" runat="server" Height="21px" Text="Address"></asp:Label>
         <br />
-        <asp:Label ID="Label4" runat="server" Height="23px" Text="Zip Code"></asp:Label>
+        <asp:Label ID="Label4" runat="server" Height="21px" Text="Zip Code"></asp:Label>
+        <br />
+        <asp:Label ID="Label5" runat="server" Height="23px" Text="City, State "></asp:Label>
         <br />
         <asp:Label ID="Label2" runat="server" Height="23px" Text="Phone Number"></asp:Label>
         <br />
@@ -24,6 +26,8 @@
         <asp:TextBox ID="txtAddress" runat="server"></asp:TextBox>
         <br />
         <asp:TextBox ID="txtZip" runat="server"></asp:TextBox>
+        <br />
+        <asp:TextBox ID="txtCityState" runat="server" ReadOnly="True"></asp:TextBox>
         <br />
         <asp:TextBox ID="txtPhone" runat="server"></asp:TextBox>
         <br />
