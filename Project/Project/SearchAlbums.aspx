@@ -31,12 +31,17 @@
         <br />
         <br />
         <asp:CheckBoxList ID="cbxList" runat="server" RepeatColumns="2" ></asp:CheckBoxList>
-        
+        <br />
+        <br />
        </div>
 
-    <br />
+     <div id="searchbutton">
         <br />
-        <asp:Button ID="btnSearch" runat="server" Text="SEARCH" />
+        <br />
+        <br />
+        <br />
+        <asp:Button ID="btnSearch" runat="server" Text="SEARCH" Height="45px" Width="200px" />
+        <asp:Button ID="btnSeeAll" runat="server" Text="See All Songs" Height="45px" Width="200px" />
         <br />
         <br />
         <asp:Label ID="Label3" runat="server" Text="Now showing "></asp:Label>
@@ -44,6 +49,7 @@
         <asp:Label ID="Label" runat="server" Text=" record(s)"></asp:Label>
         <br />
         <br />
+    </div>
     
         <asp:GridView ID="GridView1" runat="server" CellPadding="4" ForeColor="#333333" GridLines="None">
             <AlternatingRowStyle BackColor="White" />

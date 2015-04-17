@@ -104,6 +104,15 @@ Partial Public Class SearchAlbums
     Protected WithEvents btnSearch As Global.System.Web.UI.WebControls.Button
 
     '''<summary>
+    '''btnSeeAll control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents btnSeeAll As Global.System.Web.UI.WebControls.Button
+
+    '''<summary>
     '''Label3 control.
     '''</summary>
     '''<remarks>

@@ -20,11 +20,11 @@
         'Define variables 
         Dim strEmpID As String
         Dim strOldPassword As String
-        '''
+        'hi
         Dim strEmpIDSession As Double
         strEmpIDSession = Convert.ToString(Session("EmpID"))
 
-        '''
+        'hi
         'get EmpID in the URL 
         strEmpID = Request.QueryString("EmpID")
         lblError.Text = strEmpID
