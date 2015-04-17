@@ -40,6 +40,8 @@
         <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ControlToValidate="txtEmailAddr" ErrorMessage="Required Email" ForeColor="#CF5300">*</asp:RequiredFieldValidator>
         <asp:TextBox ID="txtEmailAddr" runat="server"></asp:TextBox>
         <br />
+        &nbsp;&nbsp;&nbsp;
+        <asp:TextBox ID="txtCustID" runat="server" Visible="False"></asp:TextBox>
         <br />
         <asp:Label ID="Label2" runat="server" Text="Password"></asp:Label>
         <br />
