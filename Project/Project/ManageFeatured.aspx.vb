@@ -5,6 +5,12 @@
 
     Protected Sub Page_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load
         'make sure user is a manager 
+        ''Dim strEmpID As String
+
+        ' ''get EmpID in the URL 
+        ''strEmpID = Request.QueryString("EmpID")
+
+
     End Sub
 
     Protected Sub btnFeatured_Click(sender As Object, e As EventArgs) Handles btnFeatured.Click

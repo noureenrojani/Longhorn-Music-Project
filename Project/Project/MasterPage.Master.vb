@@ -50,4 +50,9 @@
     Protected Sub LinkButton14_Click(sender As Object, e As EventArgs) Handles LinkButton14.Click
 
     End Sub
+
+    Protected Sub LinkButton8_Click(sender As Object, e As EventArgs) Handles LinkButton8.Click
+        'go to manageproductshomepage 
+        Response.Redirect("ManageProductsHomepage.aspx?EmpID=" & Convert.ToString(Session("EmpID")))
+    End Sub
 End Class
