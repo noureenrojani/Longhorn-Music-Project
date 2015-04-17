@@ -12,7 +12,7 @@
     </p>
         <p>
             <asp:RadioButtonList ID="radHireFire" runat="server">
-                <asp:ListItem>Rehire</asp:ListItem>
+                <asp:ListItem Selected="True">Rehire</asp:ListItem>
                 <asp:ListItem>Fire</asp:ListItem>
             </asp:RadioButtonList>
     </p>
@@ -24,7 +24,7 @@
     </p>
         <p>
             <asp:RadioButtonList ID="radPromoteDemote" runat="server">
-                <asp:ListItem>Promote</asp:ListItem>
+                <asp:ListItem Selected="True">Promote</asp:ListItem>
                 <asp:ListItem>Demote</asp:ListItem>
             </asp:RadioButtonList>
     </p>

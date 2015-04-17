@@ -80,6 +80,6 @@ Public Class ClassZipDB
         'Author: Aida Mojica
         'Date: 17 March 2015
 
-        mMyView.RowFilter = "Zip ='" & strIn & "'"
+        mMyView.RowFilter = "ZipCode ='" & strIn & "'"
     End Sub
 End Class

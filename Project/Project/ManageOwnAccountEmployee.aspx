@@ -8,6 +8,8 @@
         <br />
         <asp:Label ID="Label4" runat="server" Height="23px" Text="Zip Code"></asp:Label>
         <br />
+        <asp:Label ID="Label5" runat="server" Text="City, State"></asp:Label>
+        <br />
         <asp:Label ID="Label2" runat="server" Height="23px" Text="Phone Number"></asp:Label>
         <br />
         <asp:Label ID="Label3" runat="server" Height="23px" Text="Password"></asp:Label>
@@ -24,6 +26,8 @@
         <asp:TextBox ID="txtAddress" runat="server"></asp:TextBox>
         <br />
         <asp:TextBox ID="txtZip" runat="server"></asp:TextBox>
+        <br />
+        <asp:TextBox ID="txtCityState" runat="server"></asp:TextBox>
         <br />
         <asp:TextBox ID="txtPhone" runat="server"></asp:TextBox>
         <br />

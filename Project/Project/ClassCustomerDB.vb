@@ -190,5 +190,136 @@ Public Class ClassCustomerDB
         'call the SP to insert the record
         UseSPforInsertOrUpdateQuery("usp_customer_insert", aryNames, aryValues)
     End Sub
+
+
+
+
+    Public Sub UpdateAddress(strIn As String, strEmpID As String)
+        Dim aryNames As New ArrayList
+        Dim aryValues As New ArrayList
+
+        aryNames.Add("@Address")
+        aryNames.Add("@EmailAddr")
+
+        aryValues.Add(strIn)
+        aryValues.Add(strEmpID)
+
+        'call the SP to insert the record
+        UseSPforInsertOrUpdateQuery("usp_customer_update_address", aryNames, aryValues)
+    End Sub
+
+    Public Sub UpdateZip(strIn As String, strEmpID As String)
+        Dim aryNames As New ArrayList
+        Dim aryValues As New ArrayList
+
+        aryNames.Add("@Zip")
+        aryNames.Add("@EmailAddr")
+
+        aryValues.Add(strIn)
+        aryValues.Add(strEmpID)
+
+        'call the SP to insert the record
+        UseSPforInsertOrUpdateQuery("usp_customer_update_zip", aryNames, aryValues)
+    End Sub
+
+    Public Sub UpdatePhone(strIn As String, strEmpID As String)
+        Dim aryNames As New ArrayList
+        Dim aryValues As New ArrayList
+
+        aryNames.Add("@Phone")
+        aryNames.Add("@EmailAddr")
+
+        aryValues.Add(strIn)
+        aryValues.Add(strEmpID)
+
+        'call the SP to insert the record
+        UseSPforInsertOrUpdateQuery("usp_customer_update_phone", aryNames, aryValues)
+    End Sub
+
+    Public Sub UpdatePassword(strIn As String, strEmpID As String)
+        Dim aryNames As New ArrayList
+        Dim aryValues As New ArrayList
+
+        aryNames.Add("@Password")
+        aryNames.Add("@EmailAddr")
+
+        aryValues.Add(strIn)
+        aryValues.Add(strEmpID)
+
+        'call the SP to insert the record
+        UseSPforInsertOrUpdateQuery("usp_customer_update_password", aryNames, aryValues)
+    End Sub
+
+
+    Public Sub UpdateFName(strIn As String, strEmpID As String)
+        Dim aryNames As New ArrayList
+        Dim aryValues As New ArrayList
+
+        aryNames.Add("@FirstName")
+        aryNames.Add("@EmailAddr")
+
+        aryValues.Add(strIn)
+        aryValues.Add(strEmpID)
+
+        'call the SP to insert the record
+        UseSPforInsertOrUpdateQuery("usp_customer_update_fname", aryNames, aryValues)
+    End Sub
+
+    Public Sub UpdateLName(strIn As String, strEmpID As String)
+        Dim aryNames As New ArrayList
+        Dim aryValues As New ArrayList
+
+        aryNames.Add("@LastName")
+        aryNames.Add("@EmailAddr")
+
+        aryValues.Add(strIn)
+        aryValues.Add(strEmpID)
+
+        'call the SP to insert the record
+        UseSPforInsertOrUpdateQuery("usp_customer_update_lname", aryNames, aryValues)
+    End Sub
+
+
+    Public Sub UpdateMI(strIn As String, strEmpID As String)
+        Dim aryNames As New ArrayList
+        Dim aryValues As New ArrayList
+
+        aryNames.Add("@MI")
+        aryNames.Add("@EmailAddr")
+
+        aryValues.Add(strIn)
+        aryValues.Add(strEmpID)
+
+        'call the SP to insert the record
+        UseSPforInsertOrUpdateQuery("usp_customer_update_MI", aryNames, aryValues)
+    End Sub
+
+    Public Sub UpdateEnabled(strIn As String, strEmpID As String)
+        Dim aryNames As New ArrayList
+        Dim aryValues As New ArrayList
+
+        aryNames.Add("@Enabled")
+        aryNames.Add("@EmailAddr")
+
+        aryValues.Add(strIn)
+        aryValues.Add(strEmpID)
+
+        'call the SP to insert the record
+        UseSPforInsertOrUpdateQuery("usp_customer_update_enabled", aryNames, aryValues)
+    End Sub
+
+    Public Sub UpdateEmail(strIn As String, strEmpID As String)
+        Dim aryNames As New ArrayList
+        Dim aryValues As New ArrayList
+
+        aryNames.Add("@EmailAddrNew")
+        aryNames.Add("@EmailAddr")
+
+        aryValues.Add(strIn)
+        aryValues.Add(strEmpID)
+
+        'call the SP to insert the record
+        UseSPforInsertOrUpdateQuery("usp_customer_update_email", aryNames, aryValues)
+    End Sub
 End Class
 
