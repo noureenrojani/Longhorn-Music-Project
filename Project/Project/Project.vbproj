@@ -181,6 +181,7 @@
     <Compile Include="ClassFeaturedDB.vb" />
     <Compile Include="ClassFormat.vb" />
     <Compile Include="ClassSearchDB.vb" />
+    <Compile Include="ClassSongDB.vb" />
     <Compile Include="ClassValidate.vb" />
     <Compile Include="ClassZipDB.vb" />
     <Compile Include="CreateAccount.aspx.designer.vb">
@@ -258,7 +259,7 @@
     </Compile>
     <Compile Include="ManageItemPrice.aspx.vb">
       <DependentUpon>ManageItemPrice.aspx</DependentUpon>
-      <SubType>ASPXCodebehind</SubType>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="ManageOwnAccountEmployee.aspx.designer.vb">
       <DependentUpon>ManageOwnAccountEmployee.aspx</DependentUpon>

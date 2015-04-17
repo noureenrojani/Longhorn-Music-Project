@@ -22,7 +22,7 @@
         ElseIf strEmpID <> "" Then
             'cust is logged on welcome them 
             lblEmail.Visible = True
-            lblEmail.Text = "Welcome Amployee " & strEmpID
+            lblEmail.Text = "Welcome Employee " & strEmpID
         Else
             'nobody is logged on 
             lblEmail.Text = ""
