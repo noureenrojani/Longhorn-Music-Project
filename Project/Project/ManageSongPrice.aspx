@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="vb" AutoEventWireup="false" MasterPageFile="~/MasterPage.Master" CodeBehind="ManageItemPrice.aspx.vb" Inherits="Project.ManageItemPrice" %>
+﻿<%@ Page Title="" Language="vb" AutoEventWireup="false" MasterPageFile="~/MasterPage.Master" CodeBehind="ManageSongPrice.aspx.vb" Inherits="Project.ManageItemPrice" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
@@ -17,6 +17,9 @@
         <br />
         <br />
         <asp:Label ID="lblRadError" runat="server"></asp:Label>
+        <br />
+        <br />
+        <br />
         <asp:Button ID="btnDisable" runat="server" Text="Enable or Disable" />
         <br />
         <br />
@@ -37,6 +40,8 @@
             <br />
             <br />
             <br />
+            <br />
+            <br />
         </div>
         <asp:TextBox ID="txtSong" runat="server" ReadOnly="True"></asp:TextBox>
         <br />
@@ -50,6 +55,8 @@
         <br />
         <br />
         <asp:Label ID="lblError" runat="server"></asp:Label>
+        <br />
+        <br />
         <br />
         <asp:Button ID="Button1" runat="server" Text="Update Price" />
         <br />

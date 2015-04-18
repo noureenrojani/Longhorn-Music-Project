@@ -32,6 +32,15 @@ Partial Public Class ManageProductsHomepage
     Protected WithEvents LinkButton16 As Global.System.Web.UI.WebControls.LinkButton
 
     '''<summary>
+    '''LinkButton20 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents LinkButton20 As Global.System.Web.UI.WebControls.LinkButton
+
+    '''<summary>
     '''LinkButton17 control.
     '''</summary>
     '''<remarks>

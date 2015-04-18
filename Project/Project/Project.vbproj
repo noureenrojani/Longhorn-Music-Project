@@ -158,12 +158,13 @@
     <Content Include="Login.aspx" />
     <Content Include="LogOut.aspx" />
     <Content Include="ManageAccountsHomepage.aspx" />
+    <Content Include="ManageAlbumPrice.aspx" />
     <Content Include="ManageAlbums.aspx" />
     <Content Include="ManageArtists.aspx" />
     <Content Include="ManageCustomerAccountEmployee.aspx" />
     <Content Include="ManageEmployeeAccountManager.aspx" />
     <Content Include="ManageFeatured.aspx" />
-    <Content Include="ManageItemPrice.aspx" />
+    <Content Include="ManageSongPrice.aspx" />
     <Content Include="ManageOwnAccountEmployee.aspx" />
     <Content Include="ManageProductsHomepage.aspx" />
     <Content Include="ManageSongs.aspx" />
@@ -176,6 +177,7 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ClassAlbumDB.vb" />
     <Compile Include="ClassCustomerDB.vb" />
     <Compile Include="ClassEmployeeDB.vb" />
     <Compile Include="ClassFeaturedDB.vb" />
@@ -218,6 +220,13 @@
       <DependentUpon>ManageAccountsHomepage.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
+    <Compile Include="ManageAlbumPrice.aspx.designer.vb">
+      <DependentUpon>ManageAlbumPrice.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ManageAlbumPrice.aspx.vb">
+      <DependentUpon>ManageAlbumPrice.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
     <Compile Include="ManageAlbums.aspx.designer.vb">
       <DependentUpon>ManageAlbums.aspx</DependentUpon>
     </Compile>
@@ -253,11 +262,18 @@
       <DependentUpon>ManageFeatured.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="ManageItemPrice.aspx.designer.vb">
-      <DependentUpon>ManageItemPrice.aspx</DependentUpon>
+    <Compile Include="ManageSongPrice.aspx.designer.vb">
+      <DependentUpon>ManageSongPrice.aspx</DependentUpon>
     </Compile>
+<<<<<<< HEAD
+    <Compile Include="ManageSongPrice.aspx.vb">
+      <DependentUpon>ManageSongPrice.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+=======
     <Compile Include="ManageItemPrice.aspx.vb">
       <DependentUpon>ManageItemPrice.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+>>>>>>> cfd011c0f8e62496846edbbf8224a2c5ce97e169
     </Compile>
     <Compile Include="ManageOwnAccountEmployee.aspx.designer.vb">
       <DependentUpon>ManageOwnAccountEmployee.aspx</DependentUpon>
