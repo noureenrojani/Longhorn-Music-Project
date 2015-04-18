@@ -258,7 +258,6 @@
     </Compile>
     <Compile Include="ManageItemPrice.aspx.vb">
       <DependentUpon>ManageItemPrice.aspx</DependentUpon>
-      <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="ManageOwnAccountEmployee.aspx.designer.vb">
       <DependentUpon>ManageOwnAccountEmployee.aspx</DependentUpon>

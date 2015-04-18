@@ -46,8 +46,8 @@
         Dim intRow As Integer
 
         'Automatically generate City and State after input of ZipCode
-        txtCity.Text = dt.Rows(0)("").ToString
-        txtState.Text = 
+        'txtCity.Text = dt.Rows(0)("").ToString
+        'txtState.Text = 
 
         'Add a new account
         CustDB.AddAccount(txtEmailAddr.Text, txtCustID.Text, txtPassword.Text, txtFirstName.Text, txtMI.Text, txtLastName.Text, txtAddress.Text, txtZipCode.Text, txtPhone.Text, txtEnabled.Text)
