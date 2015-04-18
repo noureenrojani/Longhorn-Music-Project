@@ -107,7 +107,8 @@ Class ClassSearchDB
 
     Public Sub GetAllGenres()
         RunProcedure("usp_genre_get_all")
-
     End Sub
+
+    Public Sub Search()
 
 End Class

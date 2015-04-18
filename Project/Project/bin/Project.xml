@@ -6,7 +6,11 @@ Project
 </name>
 </assembly>
 <members>
+<<<<<<< HEAD
+<member name="F:Project.ManageItemPrice.Label1">
+=======
 <member name="F:Project.Search.Label1">
+>>>>>>> 0a9f98f349f9b200a671b0de27c081fcacc1918a
 	<summary>
 Label1 control.
 </summary>
@@ -14,25 +18,43 @@ Label1 control.
 Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
+<<<<<<< HEAD
+</member><member name="F:Project.ManageItemPrice.gvSongs">
+	<summary>
+gvSongs control.
+=======
 </member><member name="F:Project.Search.LinkButton1">
 	<summary>
 LinkButton1 control.
+>>>>>>> 0a9f98f349f9b200a671b0de27c081fcacc1918a
 </summary>
 	<remarks>
 Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
+<<<<<<< HEAD
+</member><member name="F:Project.ManageItemPrice.SqlDataSource2">
+	<summary>
+SqlDataSource2 control.
+=======
 </member><member name="F:Project.Search.LinkButton2">
 	<summary>
 LinkButton2 control.
+>>>>>>> 0a9f98f349f9b200a671b0de27c081fcacc1918a
 </summary>
 	<remarks>
 Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
+<<<<<<< HEAD
+</member><member name="F:Project.ManageItemPrice.SqlDataSource1">
+	<summary>
+SqlDataSource1 control.
+=======
 </member><member name="F:Project.Search.LinkButton3">
 	<summary>
 LinkButton3 control.
+>>>>>>> 0a9f98f349f9b200a671b0de27c081fcacc1918a
 </summary>
 	<remarks>
 Auto-generated field.
@@ -822,7 +844,68 @@ txtRegularPrice control.
 Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
+<<<<<<< HEAD
+</member><member name="P:Project.My.MyWebExtension.Computer">
+	<summary>
+ Returns information about the host computer.
+ </summary>
+</member><member name="P:Project.My.MyWebExtension.User">
+	<summary>
+ Returns information for the current Web user.
+ </summary>
+</member><member name="P:Project.My.MyWebExtension.Request">
+	<summary>
+ Returns Request object.
+ </summary>
+</member><member name="P:Project.My.MyWebExtension.Response">
+	<summary>
+ Returns Response object.
+ </summary>
+</member><member name="P:Project.My.MyWebExtension.Log">
+	<summary>
+ Returns the Asp log object.
+ </summary>
+</member><member name="T:Project.My.MyWebExtension">
+	<summary>
+ Module used to define the properties that are available in the My Namespace for Web projects.
+ </summary>
+	<remarks></remarks>
+</member><member name="F:Project.Search.Label1">
+	<summary>
+Label1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Project.Search.LinkButton1">
+	<summary>
+LinkButton1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Project.Search.LinkButton2">
+	<summary>
+LinkButton2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Project.Search.LinkButton3">
+	<summary>
+LinkButton3 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Project.SearchAlbums.searchby">
+=======
 </member><member name="F:Project.ManageItemPrice.txtDiscountPrice">
+>>>>>>> 0a9f98f349f9b200a671b0de27c081fcacc1918a
 	<summary>
 txtDiscountPrice control.
 </summary>
