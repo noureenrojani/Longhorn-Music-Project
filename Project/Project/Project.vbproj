@@ -169,9 +169,9 @@
     <Content Include="ManageProductsHomepage.aspx" />
     <Content Include="ManageSongs.aspx" />
     <Content Include="NavBar.png" />
+    <Content Include="SearchHome.aspx" />
     <Content Include="SearchArtists.aspx" />
     <Content Include="SearchAlbums.aspx" />
-    <Content Include="SearchHome.aspx" />
     <Content Include="SearchSongs.aspx" />
     <Content Include="StyleSheet.css" />
     <Content Include="Web.config" />
@@ -183,7 +183,6 @@
     <Compile Include="ClassFeaturedDB.vb" />
     <Compile Include="ClassFormat.vb" />
     <Compile Include="ClassSearchDB.vb" />
-    <Compile Include="ClassSongDB.vb" />
     <Compile Include="ClassValidate.vb" />
     <Compile Include="ClassZipDB.vb" />
     <Compile Include="CreateAccount.aspx.designer.vb">
@@ -266,9 +265,15 @@
     <Compile Include="ManageSongPrice.aspx.designer.vb">
       <DependentUpon>ManageSongPrice.aspx</DependentUpon>
     </Compile>
+<<<<<<< HEAD
     <Compile Include="ManageSongPrice.aspx.vb">
       <DependentUpon>ManageSongPrice.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
+=======
+    <Compile Include="ManageItemPrice.aspx.vb">
+      <DependentUpon>ManageItemPrice.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+>>>>>>> cfd011c0f8e62496846edbbf8224a2c5ce97e169
     </Compile>
     <Compile Include="ManageOwnAccountEmployee.aspx.designer.vb">
       <DependentUpon>ManageOwnAccountEmployee.aspx</DependentUpon>
@@ -317,6 +322,13 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <Compile Include="SearchHome.aspx.designer.vb">
+      <DependentUpon>SearchHome.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SearchHome.aspx.vb">
+      <DependentUpon>SearchHome.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
     <Compile Include="SearchArtists.aspx.designer.vb">
       <DependentUpon>SearchArtists.aspx</DependentUpon>
     </Compile>
@@ -330,13 +342,6 @@
     <Compile Include="SearchAlbums.aspx.vb">
       <DependentUpon>SearchAlbums.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
-    </Compile>
-    <Compile Include="SearchHome.aspx.designer.vb">
-      <DependentUpon>SearchHome.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="SearchHome.aspx.vb">
-      <DependentUpon>SearchHome.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="SearchSongs.aspx.designer.vb">
       <DependentUpon>SearchSongs.aspx</DependentUpon>
