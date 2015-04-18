@@ -5,7 +5,10 @@
     <asp:LinkButton ID="LinkButton15" runat="server">Manage Featured Item </asp:LinkButton>
 <br />
 <br />
-<asp:LinkButton ID="LinkButton16" runat="server">Manage Item Prices</asp:LinkButton>
+<asp:LinkButton ID="LinkButton16" runat="server">Manage Song Prices</asp:LinkButton>
+    <br />
+    <br />
+    <asp:LinkButton ID="LinkButton20" runat="server">Manage Album Prices</asp:LinkButton>
 <br />
 <br />
 <asp:LinkButton ID="LinkButton17" runat="server">Manage Songs</asp:LinkButton>
