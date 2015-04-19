@@ -12,7 +12,11 @@
         cbxList.DataBind()
     End Sub
     Protected Sub btnSearch_Click(sender As Object, e As EventArgs) Handles btnSearch.Click
+        db.GetSongbyTitle(txtSearchsong.Text)
 
+        gvSongResults.DataSource = db.ResultView
+
+        gvSongResults.DataBind()
 
 
 

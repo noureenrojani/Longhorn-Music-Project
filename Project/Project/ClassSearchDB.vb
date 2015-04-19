@@ -10,8 +10,8 @@ Class ClassSearchDB
     'Date: 15 April 2015
 
     ' these module variables are internal to object
-    Dim aryNames As ArrayList
-    Dim aryValues As ArrayList
+    Dim aryNames As New ArrayList
+    Dim aryValues As New ArrayList
     Dim mMyViewGenre As New DataView
     Dim mDatasetSearch As New DataSet
     Dim mDatasetGenre As New DataSet
@@ -36,6 +36,11 @@ Class ClassSearchDB
         End Get
     End Property
 
+    Public ReadOnly Property ResultView() As DataView
+        Get
+            Return mMyView
+        End Get
+    End Property
 
     Public Sub UseSP(ByVal strUSPName As String, ByVal strDatasetName As DataSet, ByVal strViewName As DataView, ByVal strTableName As String, ByVal aryParamNames As ArrayList, ByVal aryParamValues As ArrayList)
         'Purpose: Run any stored procedure with any number of parameters
@@ -109,6 +114,15 @@ Class ClassSearchDB
         RunProcedure("usp_genre_get_all")
     End Sub
 
-    Public Sub Search()
+    Public Sub GetSongbyTitle(strSongTitle As String)
+        aryValues.Add(strSongTitle)
+        aryNames.Add("@Song")
+
+
+        UseSP("usp_search_song_get_by_song", mDatasetSearch, mMyView, "tblSong", aryNames, aryValues)
+
+    End Sub
+
+
 
 End Class

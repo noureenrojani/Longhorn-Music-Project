@@ -158,11 +158,11 @@ Partial Public Class SearchSongs
     Protected WithEvents Label As Global.System.Web.UI.WebControls.Label
 
     '''<summary>
-    '''GridView1 control.
+    '''gvSongResults control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents GridView1 As Global.System.Web.UI.WebControls.GridView
+    Protected WithEvents gvSongResults As Global.System.Web.UI.WebControls.GridView
 End Class
