@@ -55,6 +55,35 @@
 
     End Function
 
+    Public Function CheckDecimal(ByVal strInput As String) As Decimal
+        'Purpose: Validate is decimal input is numeric and greater than 0 
+        'Arguments: strInput
+        'Returns: -1 if number is valid, else strInput 
+        'Author: Aida Mojica
+        'Date: 22 January 2015
+
+        'declare variables
+        Dim decResult As Decimal
+
+        'test for numeric
+        Try
+            decResult = Decimal.Parse(strInput, Globalization.NumberStyles.Currency)
+        Catch ex As Exception
+            'value is not numeric, so return -1 (flag that something is wrong)
+            Return -1
+        End Try
+
+        'test for greater than zero
+        If decResult <= 0 Then
+            'value is less than or equal, so return -1 (flag that something is wrong)
+            Return -1
+        End If
+
+        'if the code gets this far, the input is valid, so return the result
+        Return decResult
+    End Function
+
+
     Public Function CheckIfBlank(strIn As String) As Boolean
         'Purpose: check to see if input is blank 
         'Arguments: strIN

@@ -106,7 +106,11 @@
         End If
 
         'check to see if employee is fired 
+<<<<<<< HEAD
         If DBCust.MyView(0).Item("IsFired").ToString = "Y" Then
+=======
+        If DBEmp.MyView(0).Item("IsFired").ToString = "Y" Then
+>>>>>>> d81be794ee9d8a9a47f178f1ac6dad353610c831
             'employee is fired 
             lblEmployeeError.Text = "You were fired"
             Exit Sub

@@ -40,6 +40,8 @@
         <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ControlToValidate="txtEmailAddr" ErrorMessage="Required Email" ForeColor="#CF5300">*</asp:RequiredFieldValidator>
         <asp:TextBox ID="txtEmailAddr" runat="server"></asp:TextBox>
         <br />
+        &nbsp;&nbsp;&nbsp;
+        <asp:TextBox ID="txtCustID" runat="server" Visible="False"></asp:TextBox>
         <br />
         <asp:Label ID="Label2" runat="server" Text="Password"></asp:Label>
         <br />
@@ -88,12 +90,24 @@
         <asp:TextBox ID="txtZipCode" runat="server"></asp:TextBox>
         <br />
         <br />
+        City<br />
+&nbsp;&nbsp;&nbsp;
+        <asp:TextBox ID="txtCity" runat="server" ReadOnly="True"></asp:TextBox>
+        <br />
+        <br />
+        State<br />
+&nbsp;&nbsp;&nbsp;
+        <asp:TextBox ID="txtState" runat="server" ReadOnly="True"></asp:TextBox>
+        <br />
+        <br />
         <asp:Label ID="Label4" runat="server" Text="Phone Number"></asp:Label>
         <br />
         <asp:RequiredFieldValidator ID="RequiredFieldValidator7" runat="server" ControlToValidate="txtPhone" ErrorMessage="Required Phone Number" ForeColor="#CF5300">*</asp:RequiredFieldValidator>
         &nbsp;
         <asp:TextBox ID="txtPhone" runat="server" MaxLength="10"></asp:TextBox>
         <br />
+        &nbsp;&nbsp;&nbsp;
+        <asp:TextBox ID="txtEnabled" runat="server" Visible="False">Y</asp:TextBox>
         <br />
         <asp:Button ID="btnCreateAccount" runat="server" Text="Create Account" />
     </div>

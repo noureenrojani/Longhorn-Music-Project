@@ -41,7 +41,8 @@ body {
 	position: relative;
 	float: left;
 	width: 25%;
-
+    top: 4px;
+    left: 0px;
 }
 				
 
@@ -122,8 +123,6 @@ body {
 }
 
 #menu ul li a{
-	width:auto;
-	height:25px;
 	margin:0px;
 	padding:5px 10px 0px 10px;
 	margin:5px 0px 0px 0px;
@@ -153,18 +152,29 @@ body {
 #searchcriteria {
     position:relative;
     float:left;
-    text-align:left;
+    text-align:right;
+    
 }
 
 #artistsearch {
     position:relative;
     float:left;
-
+    margin-left: 40px;
+    width:55%
 }
 
 #searchby {
-    font-size: x-large;
+    font-size: large;
     text-decoration: underline;
+}
+
+#searchbutton {
+    text-align:center;
+    width:70%
+}
+
+#searchhome {
+    text-align:center;
 }
 
 

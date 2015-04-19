@@ -135,13 +135,34 @@ C:\Users\Erik\Documents\Longhorn-Music-Project\Project\Project\bin\DotNetOpenAut
 C:\Users\Erik\Documents\Longhorn-Music-Project\Project\Project\bin\DotNetOpenAuth.AspNet.xml
 C:\Users\Erik\Documents\Longhorn-Music-Project\Project\Project\bin\Microsoft.AspNet.Membership.OpenAuth.xml
 C:\Users\Erik\Documents\Longhorn-Music-Project\Project\Project\bin\Microsoft.AspNet.FriendlyUrls.xml
+<<<<<<< HEAD
 C:\Users\Aida\Documents\Longhorn-Music-Project\Project\Project\bin\Project.dll
 C:\Users\Aida\Documents\Longhorn-Music-Project\Project\Project\bin\Project.pdb
 C:\Users\Aida\Documents\Longhorn-Music-Project\Project\Project\bin\Project.xml
 C:\Users\Aida\Documents\Longhorn-Music-Project\Project\Project\bin\Microsoft.Web.Infrastructure.dll
 C:\Users\Aida\Documents\Longhorn-Music-Project\Project\Project\bin\Microsoft.Web.Infrastructure.xml
+=======
+C:\Users\Noureen\Documents\Longhorn-Music-Project\Project\Project\bin\Project.dll
+C:\Users\Noureen\Documents\Longhorn-Music-Project\Project\Project\bin\Project.pdb
+C:\Users\Noureen\Documents\Longhorn-Music-Project\Project\Project\bin\Project.xml
+C:\Users\Noureen\Documents\Longhorn-Music-Project\Project\Project\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Noureen\Documents\Longhorn-Music-Project\Project\Project\bin\Microsoft.Web.Infrastructure.xml
+C:\Users\Noureen\Documents\Longhorn-Music-Project\Project\Project\obj\Debug\Project.Resources.resources
+C:\Users\Noureen\Documents\Longhorn-Music-Project\Project\Project\obj\Debug\Project.vbproj.GenerateResource.Cache
+C:\Users\Noureen\Documents\Longhorn-Music-Project\Project\Project\obj\Debug\Project.dll
+C:\Users\Noureen\Documents\Longhorn-Music-Project\Project\Project\obj\Debug\Project.xml
+C:\Users\Noureen\Documents\Longhorn-Music-Project\Project\Project\obj\Debug\Project.pdb
+>>>>>>> d81be794ee9d8a9a47f178f1ac6dad353610c831
 C:\Users\Aida\Documents\Longhorn-Music-Project\Project\Project\obj\Debug\Project.Resources.resources
 C:\Users\Aida\Documents\Longhorn-Music-Project\Project\Project\obj\Debug\Project.vbproj.GenerateResource.Cache
 C:\Users\Aida\Documents\Longhorn-Music-Project\Project\Project\obj\Debug\Project.dll
 C:\Users\Aida\Documents\Longhorn-Music-Project\Project\Project\obj\Debug\Project.xml
 C:\Users\Aida\Documents\Longhorn-Music-Project\Project\Project\obj\Debug\Project.pdb
+<<<<<<< HEAD
+=======
+C:\Users\Aida\Documents\Longhorn-Music-Project\Project\Project\bin\Project.dll
+C:\Users\Aida\Documents\Longhorn-Music-Project\Project\Project\bin\Project.pdb
+C:\Users\Aida\Documents\Longhorn-Music-Project\Project\Project\bin\Project.xml
+C:\Users\Aida\Documents\Longhorn-Music-Project\Project\Project\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Aida\Documents\Longhorn-Music-Project\Project\Project\bin\Microsoft.Web.Infrastructure.xml
+>>>>>>> d81be794ee9d8a9a47f178f1ac6dad353610c831

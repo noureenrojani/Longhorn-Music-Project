@@ -7,12 +7,27 @@
     Protected Sub Page_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load
         'check to make sure an employee is logged on, else redirect 
         'check to make sure that employee is logged on 
+<<<<<<< HEAD
 
 
 
         'If Session("EmpID") Is Nothing Then 'employee is not logged on 
         '    Response.Redirect("Homepage.aspx")
         'End If
+=======
+        'check to make sure employee is logged on 
+        Dim strEmpID As String
+
+        'get EmpID in the URL 
+        strEmpID = Request.QueryString("EmpID")
+        If strEmpID = "" Then
+            'employee did not log on 
+            Response.Redirect("Login.aspx")
+            Exit Sub
+        End If
+
+       
+>>>>>>> d81be794ee9d8a9a47f178f1ac6dad353610c831
 
     End Sub
 
@@ -20,11 +35,19 @@
         'Define variables 
         Dim strEmpID As String
         Dim strOldPassword As String
+<<<<<<< HEAD
         '''
         Dim strEmpIDSession As Double
         strEmpIDSession = Convert.ToString(Session("EmpID"))
 
         '''
+=======
+        'hi
+        Dim strEmpIDSession As Double
+        strEmpIDSession = Convert.ToString(Session("EmpID"))
+
+        'hi
+>>>>>>> d81be794ee9d8a9a47f178f1ac6dad353610c831
         'get EmpID in the URL 
         strEmpID = Request.QueryString("EmpID")
         lblError.Text = strEmpID
@@ -75,7 +98,11 @@
             'Update Zip in DB 
             DB.UpdateZip(txtZip.Text, strEmpID)
 
+<<<<<<< HEAD
             
+=======
+
+>>>>>>> d81be794ee9d8a9a47f178f1ac6dad353610c831
 
             'give competion message
             lblError.Text = "Zip successfully updated"

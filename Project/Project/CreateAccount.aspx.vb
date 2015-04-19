@@ -42,9 +42,29 @@
             End If
         End If
 
+        'Populate CustID
+        Dim intRow As Integer
+
+        'Automatically generate City and State after input of ZipCode
+        'txtCity.Text = dt.Rows(0)("").ToString
+        'txtState.Text = 
+
         'Add a new account
-        CustDB.AddAccount(txtEmailAddr.Text, txtPassword.Text, txtFirstName.Text, txtMI.Text, txtLastName.Text, txtAddress.Text, txtZipCode.Text, txtPhone.Text, "Y")
+        CustDB.AddAccount(txtEmailAddr.Text, txtCustID.Text, txtPassword.Text, txtFirstName.Text, txtMI.Text, txtLastName.Text, txtAddress.Text, txtZipCode.Text, txtPhone.Text, txtEnabled.Text)
         lblError.Text = "Account Created!"
     End Sub
 
+    Public Sub ClearTextboxes()
+        txtEmailAddr.Text = ""
+        txtPassword.Text = ""
+        txtPasswordCheck.Text = ""
+        txtFirstName.Text = ""
+        txtMI.Text = ""
+        txtLastName.Text = ""
+        txtAddress.Text = ""
+        txtZipCode.Text = ""
+        txtCity.Text = ""
+        txtState.Text = ""
+        txtPhone.Text = ""
+    End Sub
 End Class

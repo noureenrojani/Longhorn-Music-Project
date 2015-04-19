@@ -158,18 +158,35 @@
     <Content Include="Login.aspx" />
     <Content Include="LogOut.aspx" />
     <Content Include="ManageAccountsHomepage.aspx" />
+<<<<<<< HEAD
     <Content Include="ManageCustomerAccountEmployee.aspx" />
     <Content Include="ManageEmployeeAccountManager.aspx" />
     <Content Include="ManageFeatured.aspx" />
     <Content Include="ManageOwnAccountEmployee.aspx" />
+=======
+    <Content Include="ManageAlbumPrice.aspx" />
+    <Content Include="ManageAlbums.aspx" />
+    <Content Include="ManageArtists.aspx" />
+    <Content Include="ManageCustomerAccountEmployee.aspx" />
+    <Content Include="ManageEmployeeAccountManager.aspx" />
+    <Content Include="ManageFeatured.aspx" />
+    <Content Include="ManageSongPrice.aspx" />
+    <Content Include="ManageOwnAccountEmployee.aspx" />
+    <Content Include="ManageProductsHomepage.aspx" />
+    <Content Include="ManageSongs.aspx" />
+>>>>>>> d81be794ee9d8a9a47f178f1ac6dad353610c831
     <Content Include="NavBar.png" />
-    <Content Include="Search.aspx" />
+    <Content Include="SearchHome.aspx" />
+    <Content Include="SearchArtists.aspx" />
+    <Content Include="SearchAlbums.aspx" />
+    <Content Include="SearchSongs.aspx" />
     <Content Include="StyleSheet.css" />
     <Content Include="Web.config">
       <SubType>Designer</SubType>
     </Content>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ClassAlbumDB.vb" />
     <Compile Include="ClassCustomerDB.vb" />
     <Compile Include="ClassEmployeeDB.vb" />
     <Compile Include="ClassFeaturedDB.vb" />
@@ -203,13 +220,41 @@
     </Compile>
     <Compile Include="LogOut.aspx.vb">
       <DependentUpon>LogOut.aspx</DependentUpon>
+<<<<<<< HEAD
       <SubType>ASPXCodebehind</SubType>
+=======
+      <SubType>ASPXCodeBehind</SubType>
+>>>>>>> d81be794ee9d8a9a47f178f1ac6dad353610c831
     </Compile>
     <Compile Include="ManageAccountsHomepage.aspx.designer.vb">
       <DependentUpon>ManageAccountsHomepage.aspx</DependentUpon>
     </Compile>
     <Compile Include="ManageAccountsHomepage.aspx.vb">
       <DependentUpon>ManageAccountsHomepage.aspx</DependentUpon>
+<<<<<<< HEAD
+=======
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ManageAlbumPrice.aspx.designer.vb">
+      <DependentUpon>ManageAlbumPrice.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ManageAlbumPrice.aspx.vb">
+      <DependentUpon>ManageAlbumPrice.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="ManageAlbums.aspx.designer.vb">
+      <DependentUpon>ManageAlbums.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ManageAlbums.aspx.vb">
+      <DependentUpon>ManageAlbums.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="ManageArtists.aspx.designer.vb">
+      <DependentUpon>ManageArtists.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ManageArtists.aspx.vb">
+      <DependentUpon>ManageArtists.aspx</DependentUpon>
+>>>>>>> d81be794ee9d8a9a47f178f1ac6dad353610c831
       <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="ManageCustomerAccountEmployee.aspx.designer.vb">
@@ -217,14 +262,22 @@
     </Compile>
     <Compile Include="ManageCustomerAccountEmployee.aspx.vb">
       <DependentUpon>ManageCustomerAccountEmployee.aspx</DependentUpon>
+<<<<<<< HEAD
       <SubType>ASPXCodebehind</SubType>
+=======
+      <SubType>ASPXCodeBehind</SubType>
+>>>>>>> d81be794ee9d8a9a47f178f1ac6dad353610c831
     </Compile>
     <Compile Include="ManageEmployeeAccountManager.aspx.designer.vb">
       <DependentUpon>ManageEmployeeAccountManager.aspx</DependentUpon>
     </Compile>
     <Compile Include="ManageEmployeeAccountManager.aspx.vb">
       <DependentUpon>ManageEmployeeAccountManager.aspx</DependentUpon>
+<<<<<<< HEAD
       <SubType>ASPXCodebehind</SubType>
+=======
+      <SubType>ASPXCodeBehind</SubType>
+>>>>>>> d81be794ee9d8a9a47f178f1ac6dad353610c831
     </Compile>
     <Compile Include="ManageFeatured.aspx.designer.vb">
       <DependentUpon>ManageFeatured.aspx</DependentUpon>
@@ -233,11 +286,44 @@
       <DependentUpon>ManageFeatured.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
+<<<<<<< HEAD
+=======
+    <Compile Include="ManageSongPrice.aspx.designer.vb">
+      <DependentUpon>ManageSongPrice.aspx</DependentUpon>
+    </Compile>
+<<<<<<< HEAD
+    <Compile Include="ManageSongPrice.aspx.vb">
+      <DependentUpon>ManageSongPrice.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+=======
+    <Compile Include="ManageItemPrice.aspx.vb">
+      <DependentUpon>ManageItemPrice.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+>>>>>>> cfd011c0f8e62496846edbbf8224a2c5ce97e169
+    </Compile>
+>>>>>>> d81be794ee9d8a9a47f178f1ac6dad353610c831
     <Compile Include="ManageOwnAccountEmployee.aspx.designer.vb">
       <DependentUpon>ManageOwnAccountEmployee.aspx</DependentUpon>
     </Compile>
     <Compile Include="ManageOwnAccountEmployee.aspx.vb">
       <DependentUpon>ManageOwnAccountEmployee.aspx</DependentUpon>
+<<<<<<< HEAD
+=======
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ManageProductsHomepage.aspx.designer.vb">
+      <DependentUpon>ManageProductsHomepage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ManageProductsHomepage.aspx.vb">
+      <DependentUpon>ManageProductsHomepage.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="ManageSongs.aspx.designer.vb">
+      <DependentUpon>ManageSongs.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ManageSongs.aspx.vb">
+      <DependentUpon>ManageSongs.aspx</DependentUpon>
+>>>>>>> d81be794ee9d8a9a47f178f1ac6dad353610c831
       <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="MasterPage.Master.designer.vb">
@@ -266,12 +352,33 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
-    <Compile Include="Search.aspx.designer.vb">
-      <DependentUpon>Search.aspx</DependentUpon>
+    <Compile Include="SearchHome.aspx.designer.vb">
+      <DependentUpon>SearchHome.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Search.aspx.vb">
-      <DependentUpon>Search.aspx</DependentUpon>
+    <Compile Include="SearchHome.aspx.vb">
+      <DependentUpon>SearchHome.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SearchArtists.aspx.designer.vb">
+      <DependentUpon>SearchArtists.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SearchArtists.aspx.vb">
+      <DependentUpon>SearchArtists.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="SearchAlbums.aspx.designer.vb">
+      <DependentUpon>SearchAlbums.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SearchAlbums.aspx.vb">
+      <DependentUpon>SearchAlbums.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="SearchSongs.aspx.designer.vb">
+      <DependentUpon>SearchSongs.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SearchSongs.aspx.vb">
+      <DependentUpon>SearchSongs.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
     </Compile>
   </ItemGroup>
   <ItemGroup>

@@ -1,0 +1,342 @@
+diff --cc Project/Project.v11.suo
+index 6e66f12,7c692aa..0000000
+Binary files differ
+diff --cc Project/Project/bin/Project.dll
+index e248428,a35b646..0000000
+Binary files differ
+diff --cc Project/Project/bin/Project.pdb
+index 18952a5,be307df..0000000
+Binary files differ
+diff --cc Project/Project/bin/Project.xml
+index 390c373,e6f718f..0000000
+--- a/Project/Project/bin/Project.xml
++++ b/Project/Project/bin/Project.xml
+@@@ -6,7 -6,7 +6,11 @@@ Projec
+  </name>
+  </assembly>
+  <members>
+++<<<<<<< HEAD
+ +<member name="F:Project.ManageItemPrice.Label1">
+++=======
++ <member name="F:Project.Search.Label1">
+++>>>>>>> 0a9f98f349f9b200a671b0de27c081fcacc1918a
+  	<summary>
+  Label1 control.
+  </summary>
+@@@ -14,25 -14,25 +18,43 @@@
+  Auto-generated field.
+  To modify move field declaration from designer file to code-behind file.
+  </remarks>
+++<<<<<<< HEAD
+ +</member><member name="F:Project.ManageItemPrice.gvSongs">
+ +	<summary>
+ +gvSongs control.
+++=======
++ </member><member name="F:Project.Search.LinkButton1">
++ 	<summary>
++ LinkButton1 control.
+++>>>>>>> 0a9f98f349f9b200a671b0de27c081fcacc1918a
+  </summary>
+  	<remarks>
+  Auto-generated field.
+  To modify move field declaration from designer file to code-behind file.
+  </remarks>
+++<<<<<<< HEAD
+ +</member><member name="F:Project.ManageItemPrice.SqlDataSource2">
+ +	<summary>
+ +SqlDataSource2 control.
+++=======
++ </member><member name="F:Project.Search.LinkButton2">
++ 	<summary>
++ LinkButton2 control.
+++>>>>>>> 0a9f98f349f9b200a671b0de27c081fcacc1918a
+  </summary>
+  	<remarks>
+  Auto-generated field.
+  To modify move field declaration from designer file to code-behind file.
+  </remarks>
+++<<<<<<< HEAD
+ +</member><member name="F:Project.ManageItemPrice.SqlDataSource1">
+ +	<summary>
+ +SqlDataSource1 control.
+++=======
++ </member><member name="F:Project.Search.LinkButton3">
++ 	<summary>
++ LinkButton3 control.
+++>>>>>>> 0a9f98f349f9b200a671b0de27c081fcacc1918a
+  </summary>
+  	<remarks>
+  Auto-generated field.
+@@@ -822,66 -822,9 +844,70 @@@ txtRegularPrice control
+  Auto-generated field.
+  To modify move field declaration from designer file to code-behind file.
+  </remarks>
+++<<<<<<< HEAD
+ +</member><member name="P:Project.My.MyWebExtension.Computer">
+ +	<summary>
+ + Returns information about the host computer.
+ + </summary>
+ +</member><member name="P:Project.My.MyWebExtension.User">
+ +	<summary>
+ + Returns information for the current Web user.
+ + </summary>
+ +</member><member name="P:Project.My.MyWebExtension.Request">
+ +	<summary>
+ + Returns Request object.
+ + </summary>
+ +</member><member name="P:Project.My.MyWebExtension.Response">
+ +	<summary>
+ + Returns Response object.
+ + </summary>
+ +</member><member name="P:Project.My.MyWebExtension.Log">
+ +	<summary>
+ + Returns the Asp log object.
+ + </summary>
+ +</member><member name="T:Project.My.MyWebExtension">
+ +	<summary>
+ + Module used to define the properties that are available in the My Namespace for Web projects.
+ + </summary>
+ +	<remarks></remarks>
+ +</member><member name="F:Project.Search.Label1">
+ +	<summary>
+ +Label1 control.
+ +</summary>
+ +	<remarks>
+ +Auto-generated field.
+ +To modify move field declaration from designer file to code-behind file.
+ +</remarks>
+ +</member><member name="F:Project.Search.LinkButton1">
+ +	<summary>
+ +LinkButton1 control.
+ +</summary>
+ +	<remarks>
+ +Auto-generated field.
+ +To modify move field declaration from designer file to code-behind file.
+ +</remarks>
+ +</member><member name="F:Project.Search.LinkButton2">
+ +	<summary>
+ +LinkButton2 control.
+ +</summary>
+ +	<remarks>
+ +Auto-generated field.
+ +To modify move field declaration from designer file to code-behind file.
+ +</remarks>
+ +</member><member name="F:Project.Search.LinkButton3">
+ +	<summary>
+ +LinkButton3 control.
+ +</summary>
+ +	<remarks>
+ +Auto-generated field.
+ +To modify move field declaration from designer file to code-behind file.
+ +</remarks>
+ +</member><member name="F:Project.SearchAlbums.searchby">
+++=======
++ </member><member name="F:Project.ManageItemPrice.txtDiscountPrice">
+++>>>>>>> 0a9f98f349f9b200a671b0de27c081fcacc1918a
+  	<summary>
+- searchby control.
++ txtDiscountPrice control.
+  </summary>
+  	<remarks>
+  Auto-generated field.
+diff --cc Project/Project/obj/Debug/Project.dll
+index e248428,a35b646..0000000
+Binary files differ
+diff --cc Project/Project/obj/Debug/Project.pdb
+index 18952a5,be307df..0000000
+Binary files differ
+diff --cc Project/Project/obj/Debug/Project.xml
+index 390c373,e6f718f..0000000
+--- a/Project/Project/obj/Debug/Project.xml
++++ b/Project/Project/obj/Debug/Project.xml
+@@@ -6,7 -6,7 +6,11 @@@ Projec
+  </name>
+  </assembly>
+  <members>
+++<<<<<<< HEAD
+ +<member name="F:Project.ManageItemPrice.Label1">
+++=======
++ <member name="F:Project.Search.Label1">
+++>>>>>>> 0a9f98f349f9b200a671b0de27c081fcacc1918a
+  	<summary>
+  Label1 control.
+  </summary>
+@@@ -14,25 -14,25 +18,43 @@@
+  Auto-generated field.
+  To modify move field declaration from designer file to code-behind file.
+  </remarks>
+++<<<<<<< HEAD
+ +</member><member name="F:Project.ManageItemPrice.gvSongs">
+ +	<summary>
+ +gvSongs control.
+++=======
++ </member><member name="F:Project.Search.LinkButton1">
++ 	<summary>
++ LinkButton1 control.
+++>>>>>>> 0a9f98f349f9b200a671b0de27c081fcacc1918a
+  </summary>
+  	<remarks>
+  Auto-generated field.
+  To modify move field declaration from designer file to code-behind file.
+  </remarks>
+++<<<<<<< HEAD
+ +</member><member name="F:Project.ManageItemPrice.SqlDataSource2">
+ +	<summary>
+ +SqlDataSource2 control.
+++=======
++ </member><member name="F:Project.Search.LinkButton2">
++ 	<summary>
++ LinkButton2 control.
+++>>>>>>> 0a9f98f349f9b200a671b0de27c081fcacc1918a
+  </summary>
+  	<remarks>
+  Auto-generated field.
+  To modify move field declaration from designer file to code-behind file.
+  </remarks>
+++<<<<<<< HEAD
+ +</member><member name="F:Project.ManageItemPrice.SqlDataSource1">
+ +	<summary>
+ +SqlDataSource1 control.
+++=======
++ </member><member name="F:Project.Search.LinkButton3">
++ 	<summary>
++ LinkButton3 control.
+++>>>>>>> 0a9f98f349f9b200a671b0de27c081fcacc1918a
+  </summary>
+  	<remarks>
+  Auto-generated field.
+@@@ -822,66 -822,9 +844,70 @@@ txtRegularPrice control
+  Auto-generated field.
+  To modify move field declaration from designer file to code-behind file.
+  </remarks>
+++<<<<<<< HEAD
+ +</member><member name="P:Project.My.MyWebExtension.Computer">
+ +	<summary>
+ + Returns information about the host computer.
+ + </summary>
+ +</member><member name="P:Project.My.MyWebExtension.User">
+ +	<summary>
+ + Returns information for the current Web user.
+ + </summary>
+ +</member><member name="P:Project.My.MyWebExtension.Request">
+ +	<summary>
+ + Returns Request object.
+ + </summary>
+ +</member><member name="P:Project.My.MyWebExtension.Response">
+ +	<summary>
+ + Returns Response object.
+ + </summary>
+ +</member><member name="P:Project.My.MyWebExtension.Log">
+ +	<summary>
+ + Returns the Asp log object.
+ + </summary>
+ +</member><member name="T:Project.My.MyWebExtension">
+ +	<summary>
+ + Module used to define the properties that are available in the My Namespace for Web projects.
+ + </summary>
+ +	<remarks></remarks>
+ +</member><member name="F:Project.Search.Label1">
+ +	<summary>
+ +Label1 control.
+ +</summary>
+ +	<remarks>
+ +Auto-generated field.
+ +To modify move field declaration from designer file to code-behind file.
+ +</remarks>
+ +</member><member name="F:Project.Search.LinkButton1">
+ +	<summary>
+ +LinkButton1 control.
+ +</summary>
+ +	<remarks>
+ +Auto-generated field.
+ +To modify move field declaration from designer file to code-behind file.
+ +</remarks>
+ +</member><member name="F:Project.Search.LinkButton2">
+ +	<summary>
+ +LinkButton2 control.
+ +</summary>
+ +	<remarks>
+ +Auto-generated field.
+ +To modify move field declaration from designer file to code-behind file.
+ +</remarks>
+ +</member><member name="F:Project.Search.LinkButton3">
+ +	<summary>
+ +LinkButton3 control.
+ +</summary>
+ +	<remarks>
+ +Auto-generated field.
+ +To modify move field declaration from designer file to code-behind file.
+ +</remarks>
+ +</member><member name="F:Project.SearchAlbums.searchby">
+++=======
++ </member><member name="F:Project.ManageItemPrice.txtDiscountPrice">
+++>>>>>>> 0a9f98f349f9b200a671b0de27c081fcacc1918a
+  	<summary>
+- searchby control.
++ txtDiscountPrice control.
+  </summary>
+  	<remarks>
+  Auto-generated field.
+diff --git a/Project/Project/Project.vbproj b/Project/Project/Project.vbproj
+index bf6ea1d..e8532c9 100644
+--- a/Project/Project/Project.vbproj
++++ b/Project/Project/Project.vbproj
+@@ -168,9 +168,9 @@
+     <Content Include="ManageProductsHomepage.aspx" />
+     <Content Include="ManageSongs.aspx" />
+     <Content Include="NavBar.png" />
++    <Content Include="SearchHome.aspx" />
+     <Content Include="SearchArtists.aspx" />
+     <Content Include="SearchAlbums.aspx" />
+-    <Content Include="SearchHome.aspx" />
+     <Content Include="SearchSongs.aspx" />
+     <Content Include="StyleSheet.css" />
+     <Content Include="Web.config" />
+@@ -181,7 +181,6 @@
+     <Compile Include="ClassFeaturedDB.vb" />
+     <Compile Include="ClassFormat.vb" />
+     <Compile Include="ClassSearchDB.vb" />
+-    <Compile Include="ClassSongDB.vb" />
+     <Compile Include="ClassValidate.vb" />
+     <Compile Include="ClassZipDB.vb" />
+     <Compile Include="CreateAccount.aspx.designer.vb">
+@@ -259,7 +258,7 @@
+     </Compile>
+     <Compile Include="ManageItemPrice.aspx.vb">
+       <DependentUpon>ManageItemPrice.aspx</DependentUpon>
+-      <SubType>ASPXCodeBehind</SubType>
++      <SubType>ASPXCodebehind</SubType>
+     </Compile>
+     <Compile Include="ManageOwnAccountEmployee.aspx.designer.vb">
+       <DependentUpon>ManageOwnAccountEmployee.aspx</DependentUpon>
+@@ -308,6 +307,13 @@
+       <DependentUpon>Settings.settings</DependentUpon>
+       <DesignTimeSharedInput>True</DesignTimeSharedInput>
+     </Compile>
++    <Compile Include="SearchHome.aspx.designer.vb">
++      <DependentUpon>SearchHome.aspx</DependentUpon>
++    </Compile>
++    <Compile Include="SearchHome.aspx.vb">
++      <DependentUpon>SearchHome.aspx</DependentUpon>
++      <SubType>ASPXCodeBehind</SubType>
++    </Compile>
+     <Compile Include="SearchArtists.aspx.designer.vb">
+       <DependentUpon>SearchArtists.aspx</DependentUpon>
+     </Compile>
+@@ -322,13 +328,6 @@
+       <DependentUpon>SearchAlbums.aspx</DependentUpon>
+       <SubType>ASPXCodebehind</SubType>
+     </Compile>
+-    <Compile Include="SearchHome.aspx.designer.vb">
+-      <DependentUpon>SearchHome.aspx</DependentUpon>
+-    </Compile>
+-    <Compile Include="SearchHome.aspx.vb">
+-      <DependentUpon>SearchHome.aspx</DependentUpon>
+-      <SubType>ASPXCodeBehind</SubType>
+-    </Compile>
+     <Compile Include="SearchSongs.aspx.designer.vb">
+       <DependentUpon>SearchSongs.aspx</DependentUpon>
+     </Compile>
+diff --git a/Project/Project/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache b/Project/Project/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache
+index 2c633fc..7ad0352 100644
+Binary files a/Project/Project/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache and b/Project/Project/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache differ

@@ -77,6 +77,15 @@ Partial Public Class CreateAccount
     Protected WithEvents txtEmailAddr As Global.System.Web.UI.WebControls.TextBox
 
     '''<summary>
+    '''txtCustID control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents txtCustID As Global.System.Web.UI.WebControls.TextBox
+
+    '''<summary>
     '''Label2 control.
     '''</summary>
     '''<remarks>
@@ -248,6 +257,24 @@ Partial Public Class CreateAccount
     Protected WithEvents txtZipCode As Global.System.Web.UI.WebControls.TextBox
 
     '''<summary>
+    '''txtCity control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents txtCity As Global.System.Web.UI.WebControls.TextBox
+
+    '''<summary>
+    '''txtState control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents txtState As Global.System.Web.UI.WebControls.TextBox
+
+    '''<summary>
     '''Label4 control.
     '''</summary>
     '''<remarks>
@@ -273,6 +300,15 @@ Partial Public Class CreateAccount
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
     Protected WithEvents txtPhone As Global.System.Web.UI.WebControls.TextBox
+
+    '''<summary>
+    '''txtEnabled control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents txtEnabled As Global.System.Web.UI.WebControls.TextBox
 
     '''<summary>
     '''btnCreateAccount control.
