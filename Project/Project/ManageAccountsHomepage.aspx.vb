@@ -6,6 +6,9 @@
     Protected Sub Page_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load
         'check to make sure that employee is logged on 
         ''check to make sure that employee is logged on 
+<<<<<<< HEAD
+   
+=======
         'check to make sure employee is logged on 
         Dim strEmpID As String
 
@@ -16,6 +19,7 @@
             Response.Redirect("Login.aspx")
             Exit Sub
         End If
+>>>>>>> d81be794ee9d8a9a47f178f1ac6dad353610c831
 
         'If strEmpID = "" Then 'employee is not logged on 
         '    Response.Redirect("Homepage.aspx")

@@ -1,5 +1,12 @@
 ﻿Public Class ManageCustomerAccountEmployee
     Inherits System.Web.UI.Page
+<<<<<<< HEAD
+
+    Protected Sub Page_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load
+
+    End Sub
+
+=======
     Dim DB As New ClassCustomerDB
     Protected Sub Page_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load
         'check to make sure employee is logged on 
@@ -270,4 +277,5 @@
 
 
 
+>>>>>>> d81be794ee9d8a9a47f178f1ac6dad353610c831
 End Class

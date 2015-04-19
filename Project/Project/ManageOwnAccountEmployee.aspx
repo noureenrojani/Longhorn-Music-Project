@@ -4,11 +4,19 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <div id="labels">
 
+<<<<<<< HEAD
+        <asp:Label ID="Label1" runat="server" Height="21px" Text="Address"></asp:Label>
+        <br />
+        <asp:Label ID="Label4" runat="server" Height="21px" Text="Zip Code"></asp:Label>
+        <br />
+        <asp:Label ID="Label5" runat="server" Height="23px" Text="City, State "></asp:Label>
+=======
         <asp:Label ID="Label1" runat="server" Height="23px" Text="Address"></asp:Label>
         <br />
         <asp:Label ID="Label4" runat="server" Height="23px" Text="Zip Code"></asp:Label>
         <br />
         <asp:Label ID="Label5" runat="server" Text="City, State"></asp:Label>
+>>>>>>> d81be794ee9d8a9a47f178f1ac6dad353610c831
         <br />
         <asp:Label ID="Label2" runat="server" Height="23px" Text="Phone Number"></asp:Label>
         <br />
@@ -27,7 +35,11 @@
         <br />
         <asp:TextBox ID="txtZip" runat="server"></asp:TextBox>
         <br />
+<<<<<<< HEAD
+        <asp:TextBox ID="txtCityState" runat="server" ReadOnly="True"></asp:TextBox>
+=======
         <asp:TextBox ID="txtCityState" runat="server"></asp:TextBox>
+>>>>>>> d81be794ee9d8a9a47f178f1ac6dad353610c831
         <br />
         <asp:TextBox ID="txtPhone" runat="server"></asp:TextBox>
         <br />
