@@ -17,8 +17,16 @@ body {
     position: relative;
 	float: left;
 	width: 25%;
-    text-align: center;
-}						
+
+}		
+
+#left2
+{
+    position: relative;
+	float: left;
+	width: 25%;
+ 
+}				
 
 #links {
     width: 99%; 
@@ -42,6 +50,13 @@ body {
     position: relative;
     float: left;
     width: 65%;
+}
+
+#right2 
+{
+    position: relative;
+    float: left;
+    width: 55%;
 }
 
 #middle {

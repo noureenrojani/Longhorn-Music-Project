@@ -32,6 +32,7 @@
             pnlCustomerLoggedIn.Visible = False
         End If
 
+<<<<<<< HEAD
     End Sub
 
     Protected Sub LinkButton7_Click(sender As Object, e As EventArgs) Handles LinkButton7.Click
@@ -39,6 +40,15 @@
         Response.Redirect("ManageAccountsHomepage.aspx?EmpID=" & Convert.ToString(Session("EmpID")))
     End Sub
 
+=======
+    End Sub
+
+    Protected Sub LinkButton7_Click(sender As Object, e As EventArgs) Handles LinkButton7.Click
+
+        Response.Redirect("ManageAccountsHomepage.aspx?EmpID=" & Convert.ToString(Session("EmpID")))
+    End Sub
+
+>>>>>>> d81be794ee9d8a9a47f178f1ac6dad353610c831
     Protected Sub LinkButton6_Click(sender As Object, e As EventArgs) Handles LinkButton6.Click
         Response.Redirect("LogOut.aspx")
     End Sub
@@ -46,6 +56,8 @@
     Protected Sub LinkButton1_Click(sender As Object, e As EventArgs) Handles LinkButton1.Click
         Response.Redirect("LogOut.aspx")
     End Sub
+<<<<<<< HEAD
+=======
 
     Protected Sub LinkButton14_Click(sender As Object, e As EventArgs) Handles LinkButton14.Click
 
@@ -55,4 +67,5 @@
         'go to manageproductshomepage 
         Response.Redirect("ManageProductsHomepage.aspx?EmpID=" & Convert.ToString(Session("EmpID")))
     End Sub
+>>>>>>> d81be794ee9d8a9a47f178f1ac6dad353610c831
 End Class

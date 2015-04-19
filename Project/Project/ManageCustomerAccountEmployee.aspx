@@ -2,6 +2,13 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+<<<<<<< HEAD
+    <p>
+        Same Functionailty as the customer side but they should be able to change the password without entering the old one</p>
+    <p>
+        Ability to disable an account
+    </p>
+=======
      <div id="left">
     <p>
         <asp:Label ID="Label1" runat="server" Text="Please Select Which Customer You Would Like To Edit"></asp:Label>
@@ -92,6 +99,7 @@
     </div>
     <p>
         &nbsp;</p>
+>>>>>>> d81be794ee9d8a9a47f178f1ac6dad353610c831
     <p>
         &nbsp;</p>
 </asp:Content>
